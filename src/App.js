@@ -10,6 +10,8 @@ export default class App extends Component {
   }
   
   render() {
-    
+    <div>
+        {this.state.peopleInSpace.map(person => person.name)}
+    </div>
   }
 }
