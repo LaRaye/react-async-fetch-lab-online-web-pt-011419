@@ -5,7 +5,7 @@ export default class App extends Component {
     super()
     
     state = {
-      peopleInSpace = []
+      peopleInSpace: []
     }
   }
   
