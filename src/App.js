@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 
 export default class App extends Component {
   
-  constructor() {
-    
-    state = {
-      peopleInSpace: []
-    }
+
+  state = {
+    peopleInSpace: []
   }
+
   
   componentDidMount() {
     fetch('http://api.open-notify.org/astros.json')
